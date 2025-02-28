@@ -24,5 +24,11 @@ class CalculadoraApplicationTests {
 		assertEquals(3,calculadoraService.subtracao(4,1));
 	}
 
+	@Test
+	public void multiplicacaoTest(){
+		assertEquals(10, calculadoraService.multiplicacao(2,5));
+	}
+
+
 
 }
