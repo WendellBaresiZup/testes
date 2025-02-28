@@ -29,6 +29,9 @@ class CalculadoraApplicationTests {
 		assertEquals(10, calculadoraService.multiplicacao(2,5));
 	}
 
-
+	@Test
+	public void divisaoTest(){
+		assertEquals(5, calculadoraService.divisao(10,2));
+	}
 
 }
