@@ -19,4 +19,10 @@ class CalculadoraApplicationTests {
 		assertEquals(5, calculadoraService.adicao(2,3));
 	}
 
+	@Test
+	public void subtracaoTest(){
+		assertEquals(3,calculadoraService.subtracao(4,1));
+	}
+
+
 }
