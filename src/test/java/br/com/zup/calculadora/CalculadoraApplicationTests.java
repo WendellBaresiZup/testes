@@ -8,12 +8,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 class CalculadoraApplicationTests {
-
+	private CalculadoraService calculadoraService = new CalculadoraService();
 
 	@Test
 	void contextLoads() {
 	}
 
-
+	@Test
+	public void adicaoTest(){
+		assertEquals(5, calculadoraService.adicao(2,3));
+	}
 
 }
